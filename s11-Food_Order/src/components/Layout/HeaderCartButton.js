@@ -20,7 +20,16 @@ export default function HeaderCartButton(props) {
     if(items.length === 0){
       return
     }
-    setBtnIsHighLighted(true)
+  setBtnIsHighLighted(true)
+    
+  const timer = setTimeout(() => {
+      setBtnIsHighLighted(false)
+    }, 300);
+    
+    return()=>{
+      clearTimeout(timer)
+    }
+
   },[items])
 
   return (
