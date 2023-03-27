@@ -6,7 +6,6 @@ import useCounter from '../Hooks/UseCounter';
 const ForwardCounter = () => {
 const counter= useCounter()
 
-
   return <Card>{counter}</Card>;
 };
 
