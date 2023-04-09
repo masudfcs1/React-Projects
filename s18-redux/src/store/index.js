@@ -1,13 +1,23 @@
-import { createStore } from 'react-redux'
+import { createStore } from 'redux'
 
 const counterReducer = (state={counter: 0},action) => {
     
     if(action.type ==='increment'){
-        return state.counter + 1
+        return {
+            counter: state.counter + 1
+        }
+    }
+    
+    if(action.type ==='increase'){
+        return {
+            counter: state.counter + action.value
+        }
     }
 
-    else  if(action.type ==='decrement'){
-        return state.counter - 1
+     if(action.type ==='decrement'){
+        return {
+            counter: state.counter - 1
+        }
     }
     
     return state
