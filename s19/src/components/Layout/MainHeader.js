@@ -1,5 +1,7 @@
 import CartButton from '../Cart/CartButton';
 import classes from './MainHeader.module.css';
+import CartItem from '../Cart/CartItem';
+import Cart from '../Cart/Cart';
 
 const MainHeader = (props) => {
   return (
