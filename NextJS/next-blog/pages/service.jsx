@@ -1,12 +1,11 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
+
 
 const service = () => {
   return (
-    <div>
-      <NavBar/>
+    <main>
+   
       <h2>Welcome! Service Page</h2>
-    </div>
+    </main>
   )
 }
 

@@ -4,7 +4,7 @@ import Link from "next/link"
 const Homepage = () => {
   return (
     <>
-      <header>
+      {/* <header>
         <ul>
           <li>
             <Link href="/about">About</Link>
@@ -13,7 +13,7 @@ const Homepage = () => {
             <Link href="/service">service</Link>
           </li>
         </ul>
-      </header>
+      </header> */}
       <main>
         <h4> Home Page </h4>{" "}
       </main>
