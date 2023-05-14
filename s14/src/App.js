@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import MoviesList from "./components/MoviesList";
 import "./App.css";
 
+
 function App() {
   const [movies, setmoviesList] = useState([]);
   const [isLoading, setLoading] = useState(false);
